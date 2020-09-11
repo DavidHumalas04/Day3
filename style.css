@@ -1,0 +1,56 @@
+.relative{
+    position: relative;
+    border: 1px solid blueviolet;
+    left: 20px;
+    top: 10px;
+
+}
+.relative-div{
+    background: gold;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+
+}
+.absolute-div{
+    background: limegreen;
+    color: linen;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+
+}
+.fixed {
+    position: fixed;
+    left: 100px;
+    top: 150px;
+}
+.text{
+    color: red;
+    padding: 10px;
+
+}
+.text:hover{
+    color: blue;
+    padding: 10px;
+}
+a{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+.form-input{
+    border: 2px solid gray;
+    padding: 5px;
+    
+}
+.form-input:focus{
+    background: yellow;
+    border-color: blue;
+    outline: none;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
